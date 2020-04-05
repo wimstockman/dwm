@@ -8,7 +8,7 @@ static const int rmaster            = 1;        /* 1 means master-area is initia
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { 
-		"Mononoki Nerd Font:size=16:antialias=true:autohint=true",
+		"Mononoki Nerd Font:size=14:antialias=true:autohint=true",
 		"Noto Sans Mono:size=20:antialias=true:autohint=true",
 		"Symbola:size=20:antialias=true:autohint=true",
 		"Monospace:size=12:antialias=true:autohint=true"
@@ -20,8 +20,7 @@ static const char col_gray2[]         = "#282a36"; /* border color unfocused win
 static const char col_gray4[]         = "#d7d7d7";
 //static const char col_gray3[]         = "#96b5b4";
 static const char col_gray3[]         = "#99DDFF";
-static const char col_cyan[]          = "#924441"; /* border color focused windows and tags */
-
+static const char col_cyan[]          = "#047DB9"; /* border color focused windows and tags */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray3 },
