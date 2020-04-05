@@ -8,7 +8,7 @@ static const int rmaster            = 1;        /* 1 means master-area is initia
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { 
-		"Monospace:size=12",
+		"Mononoki Nerd Font:size=16:antialias=true:autohint=true",
 		"Noto Sans Mono:size=20:antialias=true:autohint=true",
 		"Symbola:size=20:antialias=true:autohint=true",
 		"Monospace:size=12:antialias=true:autohint=true"
