@@ -1,0 +1,51 @@
+/* modifier key function argument */
+MOD + V	DMENUCMD  ,
+MOD + 0	TAG, {.UI = ~0  ,
+MOD + RETURN	TERMCMD  ,
+MOD + XK_Q	QUIT, {0 ,
+MOD + B	BRAVE  ,
+MOD + C	KILLCLIENT, {0 ,
+MOD + D	TAGMON, {.I = -1  ,
+MOD + EQUAL	SETGAPS, {.I = -1  ,
+MOD + F	TAGMON, {.I = +1  ,
+MOD + H	FOCUSSTACK, {.I = +1  ,
+MOD + K	CYCLELAYOUT, {.I = -1  ,
+MOD + M	THUNDERBIRD  ,
+MOD + N	FOCUSSTACK, {.I = -1  ,
+MOD + SPACE	TOGGLEFLOATING, {0 ,
+MOD + W	FIREFOX  ,
+MOD + X	CYCLELAYOUT, {.I = +1  ,
+MOD + Z	FILEMANAGER  ,
+WIN + P	DMENUCMD  ,
+WIN + 0	VIEW, {.UI = ~0  ,
+WIN + HOME	SETLAYOUT, {.V = &LAYOUTS[5] ,
+WIN + RETURN	ZOOM, {0 ,
+WIN + TAB	VIEW, {0 ,
+WIN + A	SETLAYOUT, {.V = &LAYOUTS[0] ,
+WIN + B	TOGGLEBAR, {0 ,
+WIN + C	INCNMASTER, {.I = +1  ,
+WIN + D	FOCUSMON, {.I = -1  ,
+WIN + E	SETLAYOUT, {.V = &LAYOUTS[2] ,
+WIN + EQUAL	SETGAPS, {.I = +1  ,
+WIN + F	FOCUSMON, {.I = +1  ,
+WIN + H	SETMFACT, {.F = -0.05 ,
+WIN + I	SETLAYOUT, {.V = &LAYOUTS[4] ,
+WIN + L	SETMFACT, {.F = +0.05 ,
+WIN + O	SETLAYOUT, {.V = &LAYOUTS[1] ,
+WIN + R	TOGGLERMASTER, {0 ,
+WIN + SPACE	SETLAYOUT, {0 ,
+WIN + T	INCNMASTER, {.I = -1  ,
+WIN + U	SETLAYOUT, {.V = &LAYOUTS[3] ,
+
+
+
+TAGKEYS( &[{}(=*)+]ampersand + 0)
+TAGKEYS( bracketleft + 1)
+TAGKEYS( braceleft + 2)
+TAGKEYS( braceright + 3)
+TAGKEYS( parenleft + 4)
+TAGKEYS( asterisk + 5)
+TAGKEYS( parenright + 6)
+TAGKEYS( plus + 7)
+TAGKEYS( bracketright + 8)
+
